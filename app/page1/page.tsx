@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Page() {
-  return <a>Lorem ipsum</a>
+  return <Link href="/">Lorem ipsum</Link>
 }
